@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["poetry", "regex"],
+  "regexManagers": [
+    {
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": ["POETRY_VERSION=(?<currentValue>.*?)( |\n)"],
+      "depNameTemplate": "poetry",
+      "datasourceTemplate": "pypi"
+    }
+  ]
+}

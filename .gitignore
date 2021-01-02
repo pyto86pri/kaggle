@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+
+# Environments
+.venv/
+
+# Jupyter
+.jupyter/*
+!.jupyter/jupyter_notebook_config.py
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Kaggle
+.kaggle/
